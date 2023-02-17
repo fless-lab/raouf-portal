@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/raouf-portal/static/css/main.d5e28d6d.css",
+    "main.js": "/raouf-portal/static/js/main.efc6859c.js",
+    "static/media/about.jpg": "/raouf-portal/static/media/about.56e92b20e762df2fa5de.jpg",
+    "static/media/pricing.jpg": "/raouf-portal/static/media/pricing.4552ccf3b91e93029513.jpg",
+    "static/media/services.jpg": "/raouf-portal/static/media/services.13be7fde05782bd5e2e8.jpg",
+    "static/media/banner.png": "/raouf-portal/static/media/banner.1a3c8a0a448e8e24f6a0.png",
+    "index.html": "/raouf-portal/index.html",
+    "main.d5e28d6d.css.map": "/raouf-portal/static/css/main.d5e28d6d.css.map",
+    "main.efc6859c.js.map": "/raouf-portal/static/js/main.efc6859c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e28d6d.css",
+    "static/js/main.efc6859c.js"
+  ]
+}

@@ -1,6 +1,5 @@
 {
-  "homepage": "https://fless-lab.github.io/raouf-portal",
-  "name": "raouf-portal",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

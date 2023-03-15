@@ -1,6 +1,4 @@
-:root {
-    --green-color: #27ae60;
-}
+
 
 html,
 body {
@@ -32,13 +30,13 @@ header a {
 }
 
 header a:hover {
-    color: var(--green-color);
+    color: var(--primary-color);
 }
 
 header span {
     width: auto;
     padding: 0 6px;
-    background-color: var(--green-color);
+    background-color: var(--primary-color);
     border-radius: 50%;
     color: #fff;
     margin-right: 4px;
@@ -99,7 +97,7 @@ header .toggle {
         top: var(--header-height);
         left: 0;
         width: 100%;
-        background-color: #27ae60;
+        background-color: var(--primary-color);
         padding: 20px;
     }
 

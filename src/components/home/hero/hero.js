@@ -7,7 +7,7 @@ const Hero = () => {
     <>
         <section className="hero">
             <div className="container">
-            <Heading title="Welcome To Raouf's World" subtitle="Search for anything you want and get more infos about us."/>
+            <Heading title="JSLP Risk Consulting Group" subtitle="We use our experience, skills, and expertise to offer our clients sound advice to improve business performance."/>
             <form className="flex">
                 <input type="text" placeholder='Please type a keyword to start searching ...' />
             </form>

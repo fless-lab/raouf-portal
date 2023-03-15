@@ -16,7 +16,7 @@ export const Header = () => {
     <header ref={headerRef}>
         <div className="header-container container flex">
             <Link to="/" className="logo">
-                <img src="/images/logo.png" alt="Logo" />
+                <img src="../images/logo_2.png" alt="Logo" />
             </Link>
             <div className="nav">
                 <ul className={navList?'small':'flex'}>

@@ -26,3 +26,12 @@
     width: 100%;
   }
 }
+
+
+.contact input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}

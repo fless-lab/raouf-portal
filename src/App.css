@@ -209,7 +209,7 @@ img {
 .mb {
   margin-bottom: 80px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .grid4,
   .grid3,
   .grid5 {
@@ -225,5 +225,13 @@ img {
   .back img,
   .back {
     height: 30vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid4,
+  .grid3,
+  .grid5 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import "./header.css"
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import { nav } from '../../data/Data'
 
 export const Header = () => {
@@ -22,7 +22,7 @@ export const Header = () => {
                 <ul className={navList?'small':'flex'}>
                     {nav.map((list,index)=>(
                         <li key={index}>
-                            <Link to={list.path}>{list.text}</Link>
+                            <NavLink to={list.path}>{list.text}</NavLink>
                         </li>
                     ))}
                 </ul>

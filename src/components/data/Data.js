@@ -12,7 +12,7 @@ export const nav = [
       path: "/services",
     },
     {
-      text: "blog",
+      text: "Courses",
       path: "/blog",
     },
     {
@@ -27,27 +27,27 @@ export const nav = [
   export const featured = [
     {
       cover: "../images/hero/h1.png",
-      name: "Family House",
+      name: "Advisory Services",
       total: "122 Property",
     },
     {
       cover: "../images/hero/h2.png",
-      name: "House & Villa",
+      name: "Training and Development",
       total: "155 Property",
     },
     {
       cover: "../images/hero/h3.png",
-      name: "Apartment",
+      name: "Independent Assessments",
       total: "300 Property",
     },
     {
       cover: "../images/hero/h4.png",
-      name: "Office & Studio",
+      name: "Translation Services",
       total: "80 Property",
     },
     {
       cover: "../images/hero/h6.png",
-      name: "Villa & Condo",
+      name: "Others",
       total: "80 Property",
     },
   ]
@@ -111,22 +111,22 @@ export const nav = [
     {
       icon: <i class='fa-solid fa-trophy'></i>,
       num: "32 M	",
-      name: "Blue Burmin Award",
+      name: "Available courses",
     },
     {
       icon: <i class='fa-solid fa-briefcase'></i>,
       num: "43 M",
-      name: "Mimo X11 Award",
+      name: "Enroled Students",
     },
     {
       icon: <i class='fa-solid fa-lightbulb'></i>,
       num: "51 M",
-      name: "Australian UGC Award",
+      name: "People Certified",
     },
     {
       icon: <i class='fa-solid fa-heart'></i>,
-      num: "42 M",
-      name: "IITCA Green Award",
+      num: "42",
+      name: "Years of experience",
     },
   ]
   export const location = [
@@ -201,27 +201,27 @@ export const nav = [
       name: "Anna K. Young",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
-    {
-      list: "51",
-      cover: "../images/customer/team-4.jpg",
-      address: "2272 Briarwood Drive",
-      name: "Michael P. Grimaldo",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-    },
-    {
-      list: "42",
-      cover: "../images/customer/team-5.jpg",
-      address: "2272 Briarwood Drive",
-      name: "Michael P. Grimaldo",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-    },
-    {
-      list: "38",
-      cover: "../images/customer/team-5.jpg",
-      address: "Montreal, USA",
-      name: "Adam K. Jollio",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-    },
+    // {
+    //   list: "51",
+    //   cover: "../images/customer/team-4.jpg",
+    //   address: "2272 Briarwood Drive",
+    //   name: "Michael P. Grimaldo",
+    //   icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    // },
+    // {
+    //   list: "42",
+    //   cover: "../images/customer/team-5.jpg",
+    //   address: "2272 Briarwood Drive",
+    //   name: "Michael P. Grimaldo",
+    //   icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    // },
+    // {
+    //   list: "38",
+    //   cover: "../images/customer/team-5.jpg",
+    //   address: "Montreal, USA",
+    //   name: "Adam K. Jollio",
+    //   icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    // },
   ]
   export const price = [
     {
@@ -275,7 +275,7 @@ export const nav = [
       ],
     },
     {
-      plan: "Platinum",
+      plan: "Advanced",
       price: "79",
       ptext: "2 user, per month",
       list: [
@@ -313,6 +313,6 @@ export const nav = [
     },
     {
       title: "COMPANY",
-      text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+      text: [{ list: "About" }, { list: "Courses" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
     },
   ]

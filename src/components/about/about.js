@@ -18,7 +18,7 @@ const About = () => {
             <button className='btn2'>More About Us</button>
           </div>
           <div className='right row'>
-            <img src='./immio.jpg' alt='' />
+            {/* <img src='./immio.jpg' alt='' /> */}
           </div>
         </div>
       </section>

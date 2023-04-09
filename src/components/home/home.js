@@ -14,7 +14,7 @@ function Home() {
       <Featured />
       <Recent />
       <Awards />
-      <Location />
+      {/* <Location /> */}
       <Team />
       <Price />
     </>

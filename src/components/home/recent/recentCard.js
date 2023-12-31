@@ -14,7 +14,7 @@ const RecentCard = () => {
               </div>
               <div className='text'>
                 <div className='category flex'>
-                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
+                  <span style={{ background: category === "On Site" ? "#25b5791a" : "#ff98001a", color: category === "On Site" ? "#25b579" : "#ff9800" }}>{category}</span>
                   <i className='fa fa-heart'></i>
                 </div>
                 <h4>{name}</h4>
@@ -24,7 +24,7 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button> <label htmlFor=''>/sqft</label>
+                  <button className='btn2'>{price}</button>
                 </div>
                 <span>{type}</span>
               </div>

@@ -13,7 +13,7 @@ export const nav = [
     },
     {
       text: "Courses",
-      path: "/blog",
+      path: "/courses",
     },
     // {
     //   text: "pricing",
@@ -82,7 +82,7 @@ export const nav = [
     {
       id: 4,
       cover: "../images/list/p-4.webp",
-      name: "Comprehensive Financial Advisory",
+      name: "Master Comprehensive Financial Advisory For Beginners",
       location: "Zoom",
       category: "Remote",
       price: "$7,540",

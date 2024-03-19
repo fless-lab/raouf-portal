@@ -9,8 +9,8 @@ const RecentCard = () => {
           const { cover, category, location, name, price, type } = val
           return (
             <div className='box shadow' key={index}>
-              <div className='img'>
-                <img src={cover} alt='' />
+              <div className='img' style={{ height:"200px" }}>
+                <img src={cover} alt='' style={{ objectFit:"cover" }} />
               </div>
               <div className='text'>
                 <div className='category flex'>
@@ -24,7 +24,13 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button>
+                  
+                    {/* <a href="mailto:achilletarmla@gmail.com">{price}</a> */}
+                    <a href="mailto:achilleatarmla@gmail.com?subject=Interrested%20by%20COURSE001&body=Hello%2C%20%0A%0AI%20am%20interrested%20in%20this%20course">
+                  <button className='btn2'>
+                  {price}
+                  </button>
+                    </a>
                 </div>
                 <span>{type}</span>
               </div>

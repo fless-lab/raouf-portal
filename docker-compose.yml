@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    restart: "no"
+  
+  nginx:
+    image: nginx:stable-alpine
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - .:/app
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.raouf-portal.rule=Host(`jslp-consulting.danielblandes.com`)
+      - traefik.http.routers.raouf-portal.tls=true
+      - traefik.http.routers.raouf-portal.tls.certresolver=le
+    networks:
+      - default
+      - traefik-proxy
+    restart: always
+
+networks:
+  traefik-proxy:
+    external: true
